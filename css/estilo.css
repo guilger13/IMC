@@ -1,0 +1,61 @@
+/* Arquivo de estilo do projeto */
+body{
+    background: #b7b4f4;
+    color: black;
+    font-family: sans-serif, Arial;
+    display: flex; /* ativa o modo flexbox */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente*/
+    height: 100vh; /* define a altura como 100% da interface*/
+}
+label{
+    display: block; /* mostra um por linha - em bloco */
+    font-size: 14px;
+    font-weight: bold; /* negrito */
+    margin-top: 8px;
+}
+input{
+    width: 100%; /* ocupa 100% do espaço disponível */
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #CCCCCC; /* borda sólida 1px na cor */
+    border-radius: 8px; /* cantos arredondados */
+}
+button{
+    width: 100%;
+    background: #007BFF;
+    color: #fff;
+    padding: 16px;
+    border: none; /* remove a borda */
+    border-radius: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+    cursor: pointer; /* ícone da mãozinha */
+}
+button:hover{ background: #e4a23f;}
+/* Classes CSS - Utilizada para exceções. Começam por . */
+.clear{
+    background: #D62516;
+}
+.formulario{
+    background: #FFF;
+    padding: 32px;
+    border-radius: 16px;
+    width: 320px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+/* box shadow
+   0 - deslocamento horizontal
+   8 - deslocamento vertical
+   24 - 'embaçamento' ou blur. Quanto >, mais embaçado
+   cor no padrão rgba - o a é de alpha ou transparência. 0 a 1
+   */
+
+   /*# - utilizado para formatar um elemento pelo id */
+   #resultado{
+    padding: 16px;
+    background: #fff;
+    border-left: 4px solid #007bff; /* borda na esquerda */
+    margin-top: 24px;
+    display: none; /* remove da tela */
+}
