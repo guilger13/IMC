@@ -11,4 +11,7 @@ O projeto inclui CSS e manipulação de campos através do JS.
 - Javascript (Vanilla JS)
 
 ## Demonstração online 
-Acesse https://guilger13.github.io/IMC/    
+Acesse https://guilger13.github.io/IMC/
+
+## Licença
+A licença deste software é **MTI**
