@@ -9,3 +9,6 @@ O projeto inclui CSS e manipulação de campos através do JS.
 - HTML5
 - CSS3
 - Javascript (Vanilla JS)
+
+## Demonstração online 
+Acesse https://guilger13.github.io/IMC/
